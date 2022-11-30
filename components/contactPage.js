@@ -7,14 +7,14 @@ function ContactPage(){
     <div className={styles.screen}>
       <div className={styles.screenHeader}>
         <div className={styles.screenHeaderLeft}>
-          <div className={styles.screenHeaderButton+" "+styles.circle}></div>
+          {/* <div className={styles.screenHeaderButton+" "+styles.circle}></div>
           <div className={styles.screenHeaderButton+" "+styles.maximize}></div>
-          <div className={styles.screenHeaderButton+" "+styles.minimize}></div>
+          <div className={styles.screenHeaderButton+" "+styles.minimize}></div> */}
         </div>
         <div className={styles.screenHeaderRight}>
+          {/* <div className={styles.screenHeaderEllipsis}></div>
           <div className={styles.screenHeaderEllipsis}></div>
-          <div className={styles.screenHeaderEllipsis}></div>
-          <div className={styles.screenHeaderEllipsis}></div>
+          <div className={styles.screenHeaderEllipsis}></div> */}
         </div>
       </div>
       <div className={styles.screenBody}>

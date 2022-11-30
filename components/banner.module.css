@@ -53,11 +53,16 @@
     
     border-radius: 20px;
 }
-@media screen and (max-width:625px){
+@media screen and (max-width:820px){
     .robo{
         width: 400px;
     }
-    
+    .aboutTitle{
+        font-size: 40px;
+    }
+    .about{
+        font-size: 15px;
+    }
 }
 
 .circleBox{

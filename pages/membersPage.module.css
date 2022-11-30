@@ -64,6 +64,9 @@
     .title{
         font-size: 30px;
     }
+    .title{
+        top: 0px;
+    }
 }
 .back{
     

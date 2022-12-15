@@ -56,3 +56,11 @@
     width: fit-content;
     border-bottom: 2px solid white;
 }
+.gridContainer{
+    position: relative;
+    top: 100px;
+    width: 100vw;
+    /* height: auto; */
+    background-color: black;
+    height: 100vh;
+}

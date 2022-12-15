@@ -19,6 +19,12 @@
         
     },
     {
+        "id": 30,
+        "imgh":"/Aditya_Vats.jpg",
+        "name": "Aditya Vats"
+        
+    },
+    {
         "id": 4,
         "imgh":"/members/himanshu - Himanshu Kumar.jpg",
         "name": "Himanshu Kumar"
@@ -43,6 +49,12 @@
         
     },
     {
+        "id": 80,
+        "imgh":"/Parth_Patil_Y19.PNG",
+        "name": "Parth Patil"
+        
+    },
+    {
         "id": 8,
         "imgh":"/members/IMG_20201206_203102 - Pankaj Agarwal.jpg",
         "name": "Saksham Agarwal"
@@ -64,6 +76,12 @@
         "id": 11,
         "imgh":"/members/IMG_20221026_220531__01__01 - Moksh Jain.jpg",
         "name": "Moksh Jain"
+        
+    },
+    {
+        "id": 100,
+        "imgh":"/Sahil_Maurya.jpg",
+        "name": "Sahil Maurya"
         
     },
     {

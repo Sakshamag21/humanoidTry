@@ -1,0 +1,60 @@
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.gridContainer{
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 100vh;
+    /* background-color: bisque; */
+    background: radial-gradient( #1e88e5, rgb(23 37 144), #102c59, #393aa0);
+	background-size: 400% 400%;
+    position: relative;
+    animation: gradient 15s ease infinite;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+
+}
+.h1C{
+    display: flex;
+    justify-content: center;
+}
+.achievementImage{
+    background-image: url("../public/Screenshot1.png");
+    width: 30vw;
+    height: 50vh;
+    background-size: cover;
+
+}
+.item{
+    width: 60vw;
+    height: 50vh;
+}
+.insideGrid{
+    display: flex;
+    flex-direction:row ;
+}
+@media screen and (max-width:678px) {
+    .insideGrid{
+        flex-direction: column;
+    }
+    .item{
+        width: 90vw;
+        height: auto;
+    }
+    .achievementImage{
+        width: 90vw;
+        height: 40vh;
+    }
+    
+}
